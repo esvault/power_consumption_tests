@@ -6,7 +6,7 @@ from time import time, sleep
 class HillclimbTest(BaseTest):
     def __init__(self, adb_path):
         super(HillclimbTest, self).__init__(adb_path)
-        self.adb = adb_path
+        self.name = 'game_test'
         self.package_name = 'com.fingersoft.hillclimb'
         self.activity = 'com.fingersoft.game.MainActivity'
 

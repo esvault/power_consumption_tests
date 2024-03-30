@@ -5,7 +5,7 @@ import subprocess as sp
 class CameraTest(BaseTest):
     def __init__(self, adb_path):
         super(CameraTest, self).__init__(adb_path)
-
+        self.name = 'camera_test'
         self.package_name = 'net.sourceforge.opencamera'
         self.activity = 'net.sourceforge.opencamera.MainActivity'
 

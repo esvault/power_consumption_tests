@@ -5,7 +5,7 @@ from time import time, sleep
 class NoteTest(BaseTest):
     def __init__(self, adb_path):
         super(NoteTest, self).__init__(adb_path)
-        self.adb = adb_path
+        self.name = 'type_test'
         self.package_name = 'com.appmindlab.nano'
         self.activity = 'com.appmindlab.nano.IntroActivity'
 
